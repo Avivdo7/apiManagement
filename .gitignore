@@ -1,0 +1,73 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VS Code directories
+.vscode/
+.vscode/*
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore environment files (e.g., for virtualenv, conda, etc.)
+env/
+venv/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+coverage.xml
+*.lcov
+
+# Ignore Python virtual environments
+pip-wheel-metadata/
+*.dist-info/
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.so
+
+# Ignore package files
+*.tar.gz
+*.zip
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.whl
+
+# Ignore IDE and editor files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Ignore specific OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
