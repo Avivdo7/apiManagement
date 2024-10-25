@@ -13,6 +13,7 @@ __pycache__/
 node_modules/
 
 # Ignore environment files (e.g., for virtualenv, conda, etc.)
+.env
 env/
 venv/
 .venv/
